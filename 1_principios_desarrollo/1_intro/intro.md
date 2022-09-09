@@ -53,7 +53,7 @@ img[alt~="center"] {
 
 ---
 
-## 7. Filosodia DevOps
+## 3. Filosodia DevOps
 - Filosofía Devops.
 - Acciones de Github.
 
