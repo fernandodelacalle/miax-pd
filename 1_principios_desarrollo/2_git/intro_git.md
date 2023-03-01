@@ -83,6 +83,9 @@ Reproducibility:
 
 ## Demo:
 
+Nota: en windows necesitamos instalar git: https://gitforwindows.org/
+
+
 1. Crear una cuenta en github: https://github.com/
 3. Creamos un repositorio donde pondremos nuestro código.
 4. Pulsamos el icono de git en vscode. Nos pedirá autentificarnos en Github.
@@ -102,6 +105,17 @@ Reproducibility:
 6. Añadimos código a nuestro repositorio commits.
 7. Hacemos push al repositorio remoto.
 8. Entramos en la web del repositorio en github y vemos el código.
+
+---
+
+Nota:
+
+Es posible que no funcione directamente en Windows por no tener configurado tu identidad en git.
+Lo puedes hacer con los siguientes comandos:
+```bash
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+```
 
 ---
 

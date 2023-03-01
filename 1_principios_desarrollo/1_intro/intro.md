@@ -43,18 +43,11 @@ img[alt~="center"] {
 - Introducción a la Terminal.
 - Python Virtual Enviroments.
 - Desarrollo de APIs en python con Fast API.
+- Logging en Python.
 
 ---
 
 ## 2. Principios de desarrollo: Docker
 - Docker
 - Desarrollo desde Docker en vscode.
-- Kubernetes.
-
----
-
-## 3. Filosodia DevOps
-- Filosofía Devops.
-- Acciones de Github.
-
----
+- Introducción teorica a Kubernetes.
