@@ -388,39 +388,6 @@ echo "Nice to meet you $name"
 
 ---
 
-## Instalar utilidades en la terminal
-
-- Instalar aplicaciones por aplicaciones por terminal es la opción más rápida cuando tenemos por ejemplo una máquina virtual. 
-- Por desgracia instalar paquetes no es del mismo modo según al distribución que usemos. En este punto debemos diferenciar los comandos en función del sistema o gestor de paquetes que utilice tu distro Linux: RPM, DEB o YUM. Por ejemplo Amazon Linux usa YUM y Ubuntu usa DEB.
-
----
-
-|Comando | Descripción|
-|--|--|
-|yum install paquete | Instala o actualiza un determinado paquete.|
-|yum update| Instala o actualiza la lista de paquetes instalados.|
-|yum upgrade| Instala o actualiza todos los paquetes instalados.|
-|yum remove paquete| Elimina el paquete deb indicado del sistema.|
-|yum check| Verifica la correcta resolución de las dependencias.|
-|yum clean| Limpia la cache desde los paquetes descargados.|
-
----
-
-Ejemplo  ``yum install nano`` o ``yum install htop``
-
-Nota: Suele ser necesario tener permisos de administración para poder instalar paquetes, para ejecutar un comando con estos permisos ponemos sudo delante:
-Ejemplo  ``sudo yum install nano``.
-
----
-
-- Si instalamos htop con ``yum install htop``
-- Tenemos disponible el comando htop que nos da información ampliada de los recursos de la máquina:
-
-![center](imgs/htop.png)
-
----
-
-
 ## Editor nano.
 Existen múltiples editores de texto que podemos usar dentro de la terminal, uno de los más sencillos y que suele estar instalado por defecto en muchos sitemas Linux es nano:
 
@@ -428,13 +395,6 @@ Existen múltiples editores de texto que podemos usar dentro de la terminal, uno
 
 
 Aquí puedes encontrar un resumen de sus comandos más comúnes: https://www.nano-editor.org/dist/latest/cheatsheet.html
-
----
-
-## Configuracion de la Terminal
-
-- Existe un fichero en el raíz del usuario llamado ```.bashrc``` donde podemos configurar comandos y aspecto de la terminal.
-- Todos los comandos que se ponen estos ficheros se ejecutan antes de mostrarse la terminal.
 
 ---
 
